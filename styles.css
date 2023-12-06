@@ -323,12 +323,11 @@ th {
   color: black;
 }
 
-.home-content .ia button {
-  padding: 10px 20px;
-  color: white; 
-  border-radius: 8px;
-  font-weight: bold;
+.home-content .ia a {
   background-color: var(--primario);
-  cursor: pointer;
-  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
