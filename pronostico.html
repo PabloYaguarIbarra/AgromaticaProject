@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Pronostico del clima</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="checkbox" id="btn" hidden>
+        <label for="btn" class="menu-btn">
+          <i class='bx bx-menu'></i>
+          
+        </label>
+        <nav id="sidebar">
+          <div class="title">AGROM4TIC</div>
+          <ul class="list-items">
+            <li><a href="index.html"><i class='bx bx-home'></i>Inicio</a></li>
+            <li><a href="Ftecnicas.html"><i class='bx bx-book-open'></i></i>F. tecnicas</a></li>
+            <li><a href="calendario.html"><i class='bx bx-calendar-check'></i></i>Calendario</a></li>
+            <li><a href="pronostico.html"><i class='bx bx-cloud'></i></i>Pronostico</a></li>
+            <li><a href="calculadora.html"><i class='bx bx-calculator' ></i>Calculadora</a></li>
+                        
+          </ul>
+        </nav>
+    </div>
+
+    <div class="title-prono"><h1>Pronostico del clima</h1></div>
+    <div class="container">
+        
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Ingresa una ciudad">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Locacion invalida/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humedad</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>V. del viento</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="pronostico.js"></script>
+</body>
+
+</html>
